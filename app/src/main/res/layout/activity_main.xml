@@ -29,14 +29,14 @@
             android:layout_height="wrap_content"
             android:text="Next"
             android:layout_weight="1"
-            android:onClick="next"/>
+            android:id="@+id/nextButton"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sort"
             android:layout_weight="1"
-            android:onClick="sort"/>
+            android:id="@+id/sortButton"/>
 
     </LinearLayout>
 
